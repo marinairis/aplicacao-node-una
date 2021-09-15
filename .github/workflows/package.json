@@ -1,0 +1,21 @@
+{
+    "name": "node-api-heroku",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index",
+      "test": "jest --watchAll",
+      "test:ci": "jest --ci --coverage --coverageReporters=html --coverageReporters=lcov"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "jest": "^26.0.1",
+      "supertest": "^4.0.2"
+    }
+  }
